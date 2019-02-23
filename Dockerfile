@@ -1,3 +1,5 @@
 FROM ubuntu:18.04
 
-RUN apt-get update && apt-get -y upgrade && apt-get -y install texlive wget xzdec
+RUN apt-get update && apt-get -y upgrade
+RUN apt-get -y install texlive
+RUN apt-get -y install wget xzdec
